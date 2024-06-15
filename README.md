@@ -39,19 +39,19 @@ espFOTA: An OTA (Over-the-Air) update library for ESP8266, ESP32, and other devi
 Py-file
 ```python
 import mip
-mip.install('github:raghulrajg/MicroPython-OTAUpdateManager/OTAUpdateManager.py')
+mip.install('github:raghulrajg/espFOTA/espFOTA.py')
 ```
 
 To install using mpremote
 
 ```bash
-    mpremote mip install github:raghulrajg/MicroPython-OTAUpdateManager
+    mpremote mip install github:raghulrajg/espFOTA
 ```
 
 To install directly using a WIFI capable board
 
 ```bash
-    mip.install("github:raghulrajg/MicroPython-OTAUpdateManager")
+    mip.install("github:raghulrajg/espFOTA")
 ```
 
 ### Installing Library Examples
@@ -59,30 +59,30 @@ To install directly using a WIFI capable board
 If you want to install library examples:
 
 ```bash
-    mpremote mip install github:raghulrajg/MicroPython-OTAUpdateManager/examples.json
+    mpremote mip install github:raghulrajg/espFOTA/examples.json
 ```
 
 To install directly using a WIFI capable board
 
 ```bash
-    mip.install("github:raghulrajg/MicroPython-OTAUpdateManager/examples.json")
+    mip.install("github:raghulrajg/espFOTA/examples.json")
 ```
 
 ### Installing from PyPI
 
 On supported GNU/Linux systems like the Raspberry Pi, you can install the driver locally `from
-PyPI <https://pypi.org/project/micropython-OTAUpdateManager/>`_.
+PyPI <https://pypi.org/project/micropython-espFOTA/>`_.
 To install for current user:
 
 ```bash
-    pip3 install micropython-OTAUpdateManager
+    pip3 install micropython-espFOTA
 ```
 
 To install system-wide (this may be required in some cases):
 
 
 ```bash
-sudo pip3 install micropython-OTAUpdateManager
+sudo pip3 install micropython-espFOTA
 ```
 To install in a virtual environment in your current project:
 
@@ -90,7 +90,7 @@ To install in a virtual environment in your current project:
     mkdir project-name && cd project-name
     python3 -m venv .venv
     source .env/bin/activate
-    pip3 install micropython-OTAUpdateManager
+    pip3 install micropython-espFOTA
 ```
 
 Also see [examples](https://github.com/raghulrajg/espFOTA/tree/main/test).
