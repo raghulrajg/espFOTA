@@ -22,4 +22,4 @@ jobs:
 
       - name: Test package
         run: |
-          python -m unittest discover tests
+          python -m unittest discover test
