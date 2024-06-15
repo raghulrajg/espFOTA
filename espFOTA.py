@@ -20,8 +20,8 @@ class espFOTA:
         self.password = password
         self.server = server
         
-        status_LED= machine.Pin(2, machine.Pin.OUT)
-        status_LED.value(1)
+        self.status_LED= machine.Pin(2, machine.Pin.OUT)
+        self.status_LED.value(1)
 
         self.Netconnect()
 
@@ -76,3 +76,4 @@ class espFOTA:
             self.callback()
         except OSError as e:
             self.reconnect()
+
