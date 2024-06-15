@@ -181,7 +181,7 @@ function serveFile(res, filePath) {
   console.log(stat.size);
   fileStream.pipe(res);
   console.log("Downloaded");
-  fs.unlinkSync(filePath);  // Optional: remove the file after serving
+  fs.unlinkSync(filePath); 
 }
 
 server1.listen(3000, () => {
