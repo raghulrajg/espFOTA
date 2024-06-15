@@ -1,0 +1,9 @@
+{
+    "urls": [
+        [
+            "test/main.py",
+            "github:raghulrajg/espFOTA/test/main.py"
+        ]
+    ],
+    "version": "1.0.0"
+}
